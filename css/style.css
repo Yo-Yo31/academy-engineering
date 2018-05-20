@@ -1,0 +1,163 @@
+@font-face {
+    font-family: 'Museo Sans Cyrl';
+    src: url('../fonts/MuseoSansCyrl-100.woff2') format('woff2'),
+        url('../fonts/MuseoSansCyrl-100.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Museo Sans Cyrl';
+    src: url('../fonts/MuseoSansCyrl-300.woff2') format('woff2'),
+        url('../fonts/MuseoSansCyrl-300.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Museo Sans Cyrl';
+    src: url('../fonts/MuseoSansCyrl-500.woff2') format('woff2'),
+        url('../fonts/MuseoSansCyrl-500.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Museo Sans Cyrl';
+    src: url('../fonts/MuseoSansCyrl-700.woff2') format('woff2'),
+        url('../fonts/MuseoSansCyrl-700.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Museo Sans Cyrl';
+    src: url('../fonts/MuseoSansCyrl-900.woff2') format('woff2'),
+        url('../fonts/MuseoSansCyrl-900.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+	font-family: 'Museo Sans Cyrl', 'Arial', sans-serif; 
+	background-color: grey;
+	padding: 0;
+	margin: 0;
+}
+
+.container {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.header__top {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.header__logo {
+    width: 320px;
+}
+
+.navigation__list {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+	/*align-items: center;*/
+    background-color: white;
+}
+
+.navigation__link {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    padding: 25px 15px;
+    text-align: center;
+    text-decoration: none;
+    transition: 0.5s;
+    color: black;
+    font-size: 15px;
+    line-height: 23px;
+    font-weight: 700;
+    height: 100%;
+}
+
+.navigation__link:hover {
+    background-color: #ee700e;
+    color: white;
+}
+
+.navigation__item {
+    max-width: 250px;
+    flex-grow: 1;
+}
+
+.navigation__item:first-child .navigation__link {
+    padding-left: 0;
+    text-align: left;
+
+}
+
+.navigation__item:last-child .navigation__link {
+    padding-right: 0;
+    text-align: right;
+}
+
+.header__phone-link {
+	font-weight: 900;
+	font-size: 18px;
+    text-decoration: none;
+    color: white;
+    transition: 0.5s;
+}
+
+.header__phone-link:hover {
+    text-decoration: underline;
+    color: #ee700e;
+}
+
+.body-advantages__item {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    justify-content: space-between;
+} 
+
+.body-advantages__list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 250px;
+    padding-right: 250px;
+}
+
+.body-advantages__item {
+    display: flex; 
+    justify-content: center;
+    text-align: center;
+}
+
+.body-advantages__link {
+    font-weight: ;
+    font-size: ;
+    text-decoration: none;
+    color: black;
+    transition: 0.5s;
+    background-color: white;
+}
+
+.body-advantages__link:hover {
+    background-color: #ee700e;
+    color: white;
+}
+   
