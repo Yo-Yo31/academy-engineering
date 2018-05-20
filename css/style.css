@@ -123,6 +123,24 @@ body {
     color: #ee700e;
 }
 
+.body-advantages__name-bold {
+    font-size: 40px;
+    line-height: 46px;
+    font-weight: 900;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-around;
+}
+
+.body-advantages__name {
+    font-size: 35px;
+    line-height: 46px;
+    font-weight: 900;
+    color: white;
+    
+
+}
+
 .body-advantages__item {
     display: flex;
     padding: 0;
@@ -136,28 +154,43 @@ body {
     margin: 0;
     list-style: none;
     display: flex;
-    justify-content: space-between;
-    padding-left: 250px;
-    padding-right: 250px;
+    justify-content: space-around;
+    margin-right: 230px;
+    margin-left: 230px;
 }
 
 .body-advantages__item {
     display: flex; 
-    justify-content: center;
+    justify-content: space-around;
     text-align: center;
 }
 
 .body-advantages__link {
-    font-weight: ;
-    font-size: ;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 23px;
     text-decoration: none;
     color: black;
     transition: 0.5s;
     background-color: white;
+    padding: 14px;
+    width: 240px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    flex-direction: row;
 }
 
 .body-advantages__link:hover {
     background-color: #ee700e;
     color: white;
+}
+   
+.body-advantages__advantages {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 700;
+    width: 215px;
 }
    
