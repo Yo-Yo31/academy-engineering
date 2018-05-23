@@ -252,6 +252,7 @@ body {
     width: 25%;
     justify-content: space-between;
     padding-top: 150px;
+    max-width: 270px
    }
 
 .servises-link {
@@ -261,7 +262,13 @@ body {
     font-size: 16px;
     font-weight: 300;
     line-height: 23px;
-    color: #6b6b6b
+    outline: 2px solid transparent;
+ 
+}
+
+.servises-link:hover {
+    outline: 2px solid;
+    outline-color: #ff7000;
 
 }
 
@@ -276,6 +283,3 @@ body {
     text-align: right;
 }
 
-.servises-link:hover {
-    background: opacity;
-}
